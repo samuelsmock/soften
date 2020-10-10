@@ -4,7 +4,7 @@ import { Link, withRouter } from 'react-router-dom';
 const items = [
     {
         path: '/me',
-        text: "me"
+        text: "about me"
     },
     {
         path: '/bodywork',
