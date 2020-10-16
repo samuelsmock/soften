@@ -14,10 +14,11 @@ function App() {
   return (
     <Router>
      <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Menu/>
-      </header>
+     
+      <img src={logo} className="App-logo" alt="logo" />
+      <Menu/>
+    
+      
      
       <body>
         <Pages/>

@@ -7,11 +7,14 @@
 
 
 .App-logo {
-  height:80%;
+  display: block;
+  
+  height:55vh;
   pointer-events: none;
   transition: width 2s, height 2s, background-color 2s, transform 2s;
- 
+  margin: 15vh auto 15vh auto;
 }
+
 
 
 .App-header {
@@ -41,12 +44,15 @@
   }
 }
 .menuBar {
-  
+  position: sticky;
+  top: 0;
+  overflow: hidden;
   width: 100%;
   background: rgb(266, 122, 252, 0.9);
   display:flex;
   flex-direction: column;
   justify-content: center;
+  height:15vh;
   
 }
 .menuBar ul{
@@ -73,7 +79,7 @@
   
   }
   
-  .menuBar a:hover { 
+ .menuBar a:hover { 
  
   transition: color 1.25s;
   color: rgb(0, 0, 0); 
@@ -87,14 +93,15 @@
     padding-top: 20px;
     style: bold;
     font-weight: bold;
-    transition: font-size 1.25s;
+    
+   
     border-bottom: 1px ridge black;
+    font-size: calc(10px + 2vw);
    
   }
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@0;1&family=Open+Sans&display=swap');
   body {
-    margin-top: 48vh;
-    padding-bottom:
+    
   }
 
   #headshot{
@@ -107,33 +114,33 @@
 }
 
 .info{
+  background: rgba(215, 211, 233, 0.747);
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
+  padding: 10px 10px 10px 0.6rem;
+  margin: 10px 0px 10px 0px;
+  top: 0;
+}
+.empty-space{
+  width: 100%;
+  height: 15vh;
 }
 .wrapped-text{
   width: 60%;
 }
 #trees{
-  margin: 10px 70px 10px 70px;
+    margin: 10px 70px 10px 70px;
     width: 20%;
-   
-   
     border-radius: 50%;
 }
   .pages{
-    background: rgba(215, 211, 233, 0.747);
-    padding: 10px 10px 10px 0.6rem;
-    margin: 10px 0px 10px 0px;
-
-   
-    top: 0;
+    
+    display: flex;
+    flex-direction: column;
     
   }
-.profile{
-  display: flex;
-  flex-direction: row;
-}
+
 
 
 
@@ -154,7 +161,7 @@ html {
 
 p{
   font-family: 'Open Sans', sans-serif;
-  font-size: calc(10px + 1vw);
+  font-size: calc(10px + 1.25vw);
   line-height: 1.5
 }
 

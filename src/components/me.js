@@ -24,14 +24,19 @@ class Me extends React.Component {
                         therapy training at delgado community college, and opened a home massage practice.  
                     </p>
                     <img id = 'headshot' src = {headshot} alt = 'profile pic'/>
+                </div>
+                <div className = 'empty-space'>
+                   
+                </div>
+                <div className = 'info'>
                     <img id = 'trees' src ={trees} alt = 'trees'/>
                     <p className = "wrapped-text">
-                        since my return to the pacific northwest, i've begun giving care to people approaching their death. i am excited to build a 
+                        since my return to the pacific northwest, i've also begun to give care to people approaching their death. i am excited to build a 
                         massage practice in olympia, while supporting elders in my community. when i'm not massaging or taking care of others, i love 
                         cooking, watching light dance on water and making art.
                     </p> 
                 </div> 
-            </div>
+            </div> 
         );
     };
 }
