@@ -1,5 +1,5 @@
 import React from 'react';
-import headshot from '../media/headshot.jpg';
+    
 
 
 

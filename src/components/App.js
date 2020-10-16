@@ -8,6 +8,7 @@ import {
   
  
 } from "react-router-dom";
+import Footer from "./footer.js";
 
 function App() {
   return (
@@ -15,9 +16,14 @@ function App() {
      <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Menu/>
       </header>
-      <Menu/>
-      <Pages/>
+     
+      <body>
+        <Pages/>
+        <Footer/>
+      </body>
+      
     </div>
     </Router>
   );

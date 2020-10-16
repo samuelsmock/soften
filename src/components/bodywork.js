@@ -11,10 +11,6 @@ class Bodywork extends React.Component {
         render(){
             return(
                 <div className ="profile">
-                    
-                    
-                   
-                    
                     <div className ="info">
                         <p>
                             i have been trained in swedish massage, shiatsu, sports massage, and deep tissue massage. in my practice,

@@ -2,13 +2,12 @@
   width: 100%;
   height: 100%;
   text-align: left;
-  background-image: linear-gradient(to bottom, rgba(215, 211, 233, 0), rgb(266, 122, 252, 0.75));
-  }
+}
 
 
 
 .App-logo {
-  height:100%;
+  height:80%;
   pointer-events: none;
   transition: width 2s, height 2s, background-color 2s, transform 2s;
  
@@ -16,15 +15,17 @@
 
 
 .App-header {
-  
+ 
   height: 45vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   
   font-size: calc(10px + 2vmin);
   color: white;
-  position: sticky;
+  position: fixed;
+  top: 0;
 }
 
 .App-link {
@@ -40,89 +41,111 @@
   }
 }
 .menuBar {
+  
   width: 100%;
   background: rgb(266, 122, 252, 0.9);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
   
 }
 .menuBar ul{
   list-style-type: none;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: left;
+  
   width: 100%;
    
 }
 
 .menuBar a { 
+  font-size: calc(10px + 1.75vw);
   color: white; 
   font-weight: 300; 
   letter-spacing: 2px; 
   text-decoration: none; 
+  margin-right: 10vw;
   
-  padding: 10px 50px 10px 0px; 
-  display: inline-block; 
+  
   width: 100%; 
-  text-align: center; 
+  
   }
   
   .menuBar a:hover { 
-  color: rgb(0, 0, 0); 
+ 
   transition: color 1.25s;
+  color: rgb(0, 0, 0); 
+    font-weight: bold;
+    padding-top: 20px;
+    transition:  1.25s;
   }
 
   .menu_item_active a{
     color: rgb(0, 0, 0); 
-    font-size: calc(10px + 2.5vw);
-    font-style: italic;
+    padding-top: 20px;
+    style: bold;
+    font-weight: bold;
     transition: font-size 1.25s;
-    background-image: linear-gradient(to right, to left, rgba(215, 211, 233, 0.747), rgb(266, 122, 252, 0.9));
+    border-bottom: 1px ridge black;
+   
   }
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@0;1&family=Open+Sans&display=swap');
-
-  .pages{
-    background: rgba(215, 211, 233, 0.747);
+  body {
+    margin-top: 48vh;
+    padding-bottom:
   }
-  .profile{
-    
-    height: auto;
-    width: auto;
-    
-    padding: 10px 10px 10px 0.6rem;
-    margin: 0px;
 
+  #headshot{
+    margin: 10px 70px 10px 70px;
+    width: 20%;
+    
    
-    top: 0;
-}
-
-
-
-#headshot{
-    margin: 5px;
-    width: auto;
-    height: 15em;
-    float: right;
-    border-radius: 10px 30px;
+    border-radius: 50%;
     
 }
 
 .info{
-    margin: 15px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.wrapped-text{
+  width: 60%;
+}
+#trees{
+  margin: 10px 70px 10px 70px;
+    width: 20%;
+   
+   
+    border-radius: 50%;
+}
+  .pages{
+    background: rgba(215, 211, 233, 0.747);
+    padding: 10px 10px 10px 0.6rem;
+    margin: 10px 0px 10px 0px;
+
+   
+    top: 0;
     
-    
-    margin-left: 0.5em;
-    margin-top: 0px !important;
-    
-    
-    
-    
+  }
+.profile{
+  display: flex;
+  flex-direction: row;
 }
 
+
+
+
+
 html {
-  
-  font-size: calc(10px + 1.5vw);
+  background: url('../media/sky.jpg') no-repeat center center fixed;
+  background-attachment: scroll;
+  font-size: calc(10px + 2.5vw);
   font-family: "IBM Plex Serif" , serif;
  
- background: url('../media/sky.jpg') no-repeat center center fixed;
+ 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -131,11 +154,15 @@ html {
 
 p{
   font-family: 'Open Sans', sans-serif;
+  font-size: calc(10px + 1vw);
+  line-height: 1.5
 }
+
 .smallType{
 
   font-size: calc(10px + 1vw);
 }
+
 @media only screen and (max-width: 560px) {
   html {
     
@@ -148,3 +175,19 @@ p{
     
   }
 }
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgba(19, 62, 70, 0.95);
+  color: white;
+  margin-top: 3vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer p{
+  margin:20px;
+}
+
