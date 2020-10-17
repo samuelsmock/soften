@@ -26,10 +26,11 @@ class Bodywork extends React.Component {
                             <br/><br/>
                             90 minutes - $120 
                             <br></br>
-                            </p>
-                        <p className= 'smallType'>
+                            <p className= 'smallType'>
                         <i>sliding scale available upon request.</i>
                         </p>
+                            </p>
+                        
                     </div> 
                       
                 </div>
