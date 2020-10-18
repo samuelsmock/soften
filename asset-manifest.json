@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82c092fc.chunk.css",
+    "main.js": "/static/js/main.4bf99efb.chunk.js",
+    "main.js.map": "/static/js/main.4bf99efb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.36503f1f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.36503f1f.js.map",
+    "static/js/2.98289ce6.chunk.js": "/static/js/2.98289ce6.chunk.js",
+    "static/js/2.98289ce6.chunk.js.map": "/static/js/2.98289ce6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.deeee58416cc1c640d249bbacc5a0d80.js": "/precache-manifest.deeee58416cc1c640d249bbacc5a0d80.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.82c092fc.chunk.css.map": "/static/css/main.82c092fc.chunk.css.map",
+    "static/js/2.98289ce6.chunk.js.LICENSE.txt": "/static/js/2.98289ce6.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/sky.49754a76.jpg",
+    "static/media/candle.jpg": "/static/media/candle.bd146c6d.jpg",
+    "static/media/headshot.jpg": "/static/media/headshot.8a0449e1.jpg",
+    "static/media/nw_trail.jpg": "/static/media/nw_trail.b4b34f88.jpg",
+    "static/media/soften_ibm.png": "/static/media/soften_ibm.4cea03a3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36503f1f.js",
+    "static/js/2.98289ce6.chunk.js",
+    "static/css/main.82c092fc.chunk.css",
+    "static/js/main.4bf99efb.chunk.js"
+  ]
+}
