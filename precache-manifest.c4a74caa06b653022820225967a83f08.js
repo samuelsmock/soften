@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ea7d6eeb66933684e787b06bdf2f7da",
+    "revision": "d1e7c3bc614901ac9f5b2e7a3791db4a",
     "url": "/samuelsmock.github.io/soften/index.html"
   },
   {
-    "revision": "189e68bf3c776e956794",
+    "revision": "41f21307c64e8f2be93c",
     "url": "/samuelsmock.github.io/soften/static/css/main.595cdf2e.chunk.css"
   },
   {
-    "revision": "150c4d51da79cf36b8e8",
-    "url": "/samuelsmock.github.io/soften/static/js/2.98289ce6.chunk.js"
+    "revision": "9c4701608cbb71a691b5",
+    "url": "/samuelsmock.github.io/soften/static/js/2.0974ccc0.chunk.js"
   },
   {
-    "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/samuelsmock.github.io/soften/static/js/2.98289ce6.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/samuelsmock.github.io/soften/static/js/2.0974ccc0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "189e68bf3c776e956794",
-    "url": "/samuelsmock.github.io/soften/static/js/main.29538f95.chunk.js"
+    "revision": "41f21307c64e8f2be93c",
+    "url": "/samuelsmock.github.io/soften/static/js/main.e1a1a968.chunk.js"
   },
   {
     "revision": "81cd032dfcdaac0ec1ac",
