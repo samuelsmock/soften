@@ -13,16 +13,23 @@ import Footer from "./footer.js";
 function App() {
   return (
     <Router>
-     <div className="App">
+    <div className="app">
+    
+        <section className="section parallax bg1">
+          
+        </section>
      
-      <img src={logo} className="App-logo" alt="logo" />
-      <Menu/> 
-      <body>
-        <Pages/>
-        <Footer/>
-      </body>
       
-    </div>
+        <section className="section static">
+          <img src={logo} className="App-logo" alt="logo" />
+          <Menu/> 
+          <body>
+            <Pages/>
+            <Footer/>
+          </body>
+        </section>
+     
+    </div>    
     </Router>
   );
 }
