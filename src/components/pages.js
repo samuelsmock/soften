@@ -18,13 +18,13 @@ class Pages extends React.Component {
         return(
           
            <div className = "pages">
-                
+                <Switch>
                     <Route exact path="/" component = {Me} />
-                    <Route path = "/me" component ={Me} />
-                    <Route path = "/bodywork" component = {Bodywork} />
-                    <Route path = "/care" component = {Care} />
-                    <Route path = "/art" component = {Art} />
-                
+                    <Route exact path = "/me" component ={Me} />
+                    <Route exact path = "/bodywork" component = {Bodywork} />
+                    <Route exact path = "/care" component = {Care} />
+                    <Route exact path = "/art" component = {Art} />
+                </Switch>
             </div> 
                   
         )

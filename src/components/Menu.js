@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
-
+import {Button} from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 
 
 class Menu extends React.Component{
@@ -66,7 +67,9 @@ class Menu extends React.Component{
                                 : 'menu_item'
                         }
                     >
-                        <Link to={item.path}>{item.text}</Link>
+                        <LinkContainer to={item.path}>
+                            <Button>{item.text}</Button>
+                        </LinkContainer>
                     </li>
                 ))}
             </ul>
