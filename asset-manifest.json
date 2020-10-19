@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/samuelsmock.github.io/soften/static/css/main.595cdf2e.chunk.css",
-    "main.js": "/samuelsmock.github.io/soften/static/js/main.e1a1a968.chunk.js",
-    "main.js.map": "/samuelsmock.github.io/soften/static/js/main.e1a1a968.chunk.js.map",
-    "runtime-main.js": "/samuelsmock.github.io/soften/static/js/runtime-main.e4df5ab8.js",
-    "runtime-main.js.map": "/samuelsmock.github.io/soften/static/js/runtime-main.e4df5ab8.js.map",
-    "static/js/2.0974ccc0.chunk.js": "/samuelsmock.github.io/soften/static/js/2.0974ccc0.chunk.js",
-    "static/js/2.0974ccc0.chunk.js.map": "/samuelsmock.github.io/soften/static/js/2.0974ccc0.chunk.js.map",
-    "index.html": "/samuelsmock.github.io/soften/index.html",
-    "precache-manifest.c4a74caa06b653022820225967a83f08.js": "/samuelsmock.github.io/soften/precache-manifest.c4a74caa06b653022820225967a83f08.js",
-    "service-worker.js": "/samuelsmock.github.io/soften/service-worker.js",
-    "static/css/main.595cdf2e.chunk.css.map": "/samuelsmock.github.io/soften/static/css/main.595cdf2e.chunk.css.map",
-    "static/js/2.0974ccc0.chunk.js.LICENSE.txt": "/samuelsmock.github.io/soften/static/js/2.0974ccc0.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/samuelsmock.github.io/soften/static/media/sky.49754a76.jpg",
-    "static/media/candle.jpg": "/samuelsmock.github.io/soften/static/media/candle.bd146c6d.jpg",
-    "static/media/headshot.jpg": "/samuelsmock.github.io/soften/static/media/headshot.8a0449e1.jpg",
-    "static/media/nw_trail.jpg": "/samuelsmock.github.io/soften/static/media/nw_trail.b4b34f88.jpg",
-    "static/media/soften_ibm.png": "/samuelsmock.github.io/soften/static/media/soften_ibm.4cea03a3.png"
+    "main.css": "/soften/static/css/main.beee1356.chunk.css",
+    "main.js": "/soften/static/js/main.ce0f92ae.chunk.js",
+    "main.js.map": "/soften/static/js/main.ce0f92ae.chunk.js.map",
+    "runtime-main.js": "/soften/static/js/runtime-main.4d3681f6.js",
+    "runtime-main.js.map": "/soften/static/js/runtime-main.4d3681f6.js.map",
+    "static/js/2.0974ccc0.chunk.js": "/soften/static/js/2.0974ccc0.chunk.js",
+    "static/js/2.0974ccc0.chunk.js.map": "/soften/static/js/2.0974ccc0.chunk.js.map",
+    "index.html": "/soften/index.html",
+    "precache-manifest.f01d00cca6ed704e06cc9468c2a5be40.js": "/soften/precache-manifest.f01d00cca6ed704e06cc9468c2a5be40.js",
+    "service-worker.js": "/soften/service-worker.js",
+    "static/css/main.beee1356.chunk.css.map": "/soften/static/css/main.beee1356.chunk.css.map",
+    "static/js/2.0974ccc0.chunk.js.LICENSE.txt": "/soften/static/js/2.0974ccc0.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/soften/static/media/sky.49754a76.jpg",
+    "static/media/candle.jpg": "/soften/static/media/candle.bd146c6d.jpg",
+    "static/media/headshot.jpg": "/soften/static/media/headshot.8a0449e1.jpg",
+    "static/media/nw_trail.jpg": "/soften/static/media/nw_trail.b4b34f88.jpg",
+    "static/media/soften_ibm.png": "/soften/static/media/soften_ibm.4cea03a3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e4df5ab8.js",
+    "static/js/runtime-main.4d3681f6.js",
     "static/js/2.0974ccc0.chunk.js",
-    "static/css/main.595cdf2e.chunk.css",
-    "static/js/main.e1a1a968.chunk.js"
+    "static/css/main.beee1356.chunk.css",
+    "static/js/main.ce0f92ae.chunk.js"
   ]
 }
