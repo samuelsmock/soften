@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fae6431c08ff1bba1da2e40e82e8df21",
+    "revision": "a237fe7374256d4eec4bf83fb98d468a",
     "url": "/soften/index.html"
   },
   {
-    "revision": "c281a6b2005a0d9bce6a",
+    "revision": "4eeee7dde395ba8d280b",
     "url": "/soften/static/css/main.beee1356.chunk.css"
   },
   {
-    "revision": "9c4701608cbb71a691b5",
-    "url": "/soften/static/js/2.0974ccc0.chunk.js"
+    "revision": "150c4d51da79cf36b8e8",
+    "url": "/soften/static/js/2.98289ce6.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/soften/static/js/2.0974ccc0.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/soften/static/js/2.98289ce6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c281a6b2005a0d9bce6a",
-    "url": "/soften/static/js/main.05b0434f.chunk.js"
+    "revision": "4eeee7dde395ba8d280b",
+    "url": "/soften/static/js/main.15a7e68b.chunk.js"
   },
   {
     "revision": "4c54fa3913115e6121ab",
