@@ -67,9 +67,9 @@ class Menu extends React.Component{
                                 : 'menu_item'
                         }
                     >
-                        <LinkContainer to={item.path}>
-                            <Button>{item.text}</Button>
-                        </LinkContainer>
+                        <Link to={item.path}>
+                            {item.text}
+                        </Link>
                     </li>
                 ))}
             </ul>
