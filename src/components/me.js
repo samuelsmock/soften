@@ -17,7 +17,7 @@ class Me extends React.Component {
                 <div className ="info">
                         
                     <p className = "wrapped-text"> 
-                        hi, my name is taj elly newman. i am a bodyworker and caregiver living in olympia, washington. i grew up in eugene, oregon, 
+                        hello, my name is taj elly newman. i am a bodyworker and caregiver living in olympia, washington. i grew up in eugene, oregon, 
                         where i developed an intuitive relationship to massage by watching my mom trade back rubs with her friends as they shared 
                         about their lives. since leaving eugene, i lived in israel, where i received a bachelors degree in literature from tel aviv 
                         university and learned to speak hebrew. i also lived in new orleans for a beautiful four years, wherein i received my massage 

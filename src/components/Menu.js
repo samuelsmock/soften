@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
-import {Button} from "react-bootstrap";
+import {Button, Nav, Navbar, NavItem} from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 
 
@@ -52,27 +52,46 @@ class Menu extends React.Component{
 
     }
 
+    
+   
 
     render(){
+        let listExperiment= [
+            {
+                path: '/me',
+                text: "about me"
+            },
+            {
+                path: '/bodywork',
+                text: "bodywork"
+            },
+            {
+                path: '/care',
+                text: 'care'
+            },
+            {
+                path: '/art',
+                text: 'art'
+            }
+        ];
+    
+        
         return (
         <div className = "menuBar">
-            <ul>
-                {this.state.items.map(item => (
-                    <li
-                        key={item.path}
-                        onClick={this.handleClick}
-                        className={
-                            this.props.location.pathname === item.path
-                                ? 'menu_item_active'
-                                : 'menu_item'
-                        }
-                    >
-                        <Link to={item.path}>
-                            {item.text}
-                        </Link>
-                    </li>
-                ))}
-            </ul>
+            <Navbar fluid collapseOnSelect className = "abc">
+                <Navbar.Collapse>
+                    <Nav pullRight>
+                        <LinkContainer to = '/me'>
+                            <NavItem >about me </NavItem>
+                        </LinkContainer>
+                        <LinkContainer to = '/bodywork'>
+                            <NavItem >bodywork</NavItem>
+                        </LinkContainer>      
+                    </Nav>
+                </Navbar.Collapse>  
+            </Navbar>
+                
+            
             
         </div>
         );
@@ -80,4 +99,4 @@ class Menu extends React.Component{
 }
 
 
-export default withRouter(Menu);
+export default Menu;

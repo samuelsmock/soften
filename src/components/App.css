@@ -55,7 +55,7 @@
   height:10vh;
   
 }
-.menuBar ul{
+.menuBar {
   list-style-type: none;
   display: flex;
   flex-direction: row;
