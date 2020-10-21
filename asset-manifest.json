@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/soften/static/css/main.beee1356.chunk.css",
-    "main.js": "/soften/static/js/main.15a7e68b.chunk.js",
-    "main.js.map": "/soften/static/js/main.15a7e68b.chunk.js.map",
+    "main.js": "/soften/static/js/main.1add6771.chunk.js",
+    "main.js.map": "/soften/static/js/main.1add6771.chunk.js.map",
     "runtime-main.js": "/soften/static/js/runtime-main.4d3681f6.js",
     "runtime-main.js.map": "/soften/static/js/runtime-main.4d3681f6.js.map",
     "static/js/2.98289ce6.chunk.js": "/soften/static/js/2.98289ce6.chunk.js",
     "static/js/2.98289ce6.chunk.js.map": "/soften/static/js/2.98289ce6.chunk.js.map",
     "index.html": "/soften/index.html",
-    "precache-manifest.413975ca9cbeaf9381ab831b94a22e12.js": "/soften/precache-manifest.413975ca9cbeaf9381ab831b94a22e12.js",
+    "precache-manifest.8178bab9d4644e9a0df812ee0fe5dcbd.js": "/soften/precache-manifest.8178bab9d4644e9a0df812ee0fe5dcbd.js",
     "service-worker.js": "/soften/service-worker.js",
     "static/css/main.beee1356.chunk.css.map": "/soften/static/css/main.beee1356.chunk.css.map",
     "static/js/2.98289ce6.chunk.js.LICENSE.txt": "/soften/static/js/2.98289ce6.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.4d3681f6.js",
     "static/js/2.98289ce6.chunk.js",
     "static/css/main.beee1356.chunk.css",
-    "static/js/main.15a7e68b.chunk.js"
+    "static/js/main.1add6771.chunk.js"
   ]
 }
