@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
-
+import {CSSTransition} from 'react-transition-group';
 
 
 class Menu extends React.Component{
@@ -54,24 +54,31 @@ class Menu extends React.Component{
 
     render(){
         return (
-        <div className = "menuBar">
-            <ul>
-                {this.state.items.map(item => (
-                    <li
-                        key={item.path}
-                        onClick={this.handleClick}
-                        className={
-                            this.props.location.pathname === item.path
-                                ? 'menu_item_active'
-                                : 'menu_item'
-                        }
-                    >
-                        <Link to={item.path}>{item.text}</Link>
-                    </li>
-                ))}
-            </ul>
-            
-        </div>
+        <CSSTransition
+        in= "true"
+        timeout={350}
+        classNames="display"
+        unmountOnExit
+        >
+
+            <div className = "menuBar">
+                <ul>
+                    {this.state.items.map(item => (
+                        <li
+                            key={item.path}
+                            onClick={this.handleClick}
+                            className={
+                                this.props.location.pathname === item.path
+                                    ? 'menu_item_active'
+                                    : 'menu_item'
+                            }
+                        >
+                            <Link to={item.path}>{item.text}</Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+         </CSSTransition>   
         );
     }
 }

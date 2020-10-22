@@ -26,6 +26,10 @@ class Pages extends React.Component {
                     <Route path = "/bodywork" component = {Bodywork} />
                     <Route path = "/care" component = {Care} />
                     <Route path = "/art" component = {Art} />
+
+                    <Route>
+                        <Me/>
+                    </Route>
                 </Switch>
             </div> 
                   

@@ -12,7 +12,7 @@ import Footer from "./footer.js";
 
 function App() {
   return (
-    <Router>
+    <Router basename= '/soften'>
      <div className="App">
      
       <img src={logo} className="App-logo" alt="logo" />
