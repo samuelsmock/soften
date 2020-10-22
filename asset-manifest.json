@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/soften/static/css/main.1f30f8b6.chunk.css",
-    "main.js": "/soften/static/js/main.220ee5c9.chunk.js",
-    "main.js.map": "/soften/static/js/main.220ee5c9.chunk.js.map",
+    "main.css": "/soften/static/css/main.1f707509.chunk.css",
+    "main.js": "/soften/static/js/main.62e09350.chunk.js",
+    "main.js.map": "/soften/static/js/main.62e09350.chunk.js.map",
     "runtime-main.js": "/soften/static/js/runtime-main.4d3681f6.js",
     "runtime-main.js.map": "/soften/static/js/runtime-main.4d3681f6.js.map",
-    "static/js/2.89a57e02.chunk.js": "/soften/static/js/2.89a57e02.chunk.js",
-    "static/js/2.89a57e02.chunk.js.map": "/soften/static/js/2.89a57e02.chunk.js.map",
+    "static/js/2.0b6378dc.chunk.js": "/soften/static/js/2.0b6378dc.chunk.js",
+    "static/js/2.0b6378dc.chunk.js.map": "/soften/static/js/2.0b6378dc.chunk.js.map",
     "index.html": "/soften/index.html",
-    "precache-manifest.70b742ac69776d5760e38516b4738f3f.js": "/soften/precache-manifest.70b742ac69776d5760e38516b4738f3f.js",
+    "precache-manifest.3caad337e8e81f5f49eb35f7279428e1.js": "/soften/precache-manifest.3caad337e8e81f5f49eb35f7279428e1.js",
     "service-worker.js": "/soften/service-worker.js",
-    "static/css/main.1f30f8b6.chunk.css.map": "/soften/static/css/main.1f30f8b6.chunk.css.map",
-    "static/js/2.89a57e02.chunk.js.LICENSE.txt": "/soften/static/js/2.89a57e02.chunk.js.LICENSE.txt",
+    "static/css/main.1f707509.chunk.css.map": "/soften/static/css/main.1f707509.chunk.css.map",
+    "static/js/2.0b6378dc.chunk.js.LICENSE.txt": "/soften/static/js/2.0b6378dc.chunk.js.LICENSE.txt",
     "static/media/App.css": "/soften/static/media/sky.49754a76.jpg",
     "static/media/candle.jpg": "/soften/static/media/candle.bd146c6d.jpg",
     "static/media/headshot.jpg": "/soften/static/media/headshot.8a0449e1.jpg",
     "static/media/nw_trail.jpg": "/soften/static/media/nw_trail.b4b34f88.jpg",
-    "static/media/soften_ibm.png": "/soften/static/media/soften_ibm.4cea03a3.png"
+    "static/media/soften_ibm.png": "/soften/static/media/soften_ibm.4cea03a3.png",
+    "static/media/yinyang.png": "/soften/static/media/yinyang.2d5810e8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4d3681f6.js",
-    "static/js/2.89a57e02.chunk.js",
-    "static/css/main.1f30f8b6.chunk.css",
-    "static/js/main.220ee5c9.chunk.js"
+    "static/js/2.0b6378dc.chunk.js",
+    "static/css/main.1f707509.chunk.css",
+    "static/js/main.62e09350.chunk.js"
   ]
 }

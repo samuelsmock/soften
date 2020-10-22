@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be7f03b8782cb91ae816f19dcef11113",
+    "revision": "7e978cd11a49361c9d9eb8134da2e02b",
     "url": "/soften/index.html"
   },
   {
-    "revision": "358cf4a92ffb8231bea8",
-    "url": "/soften/static/css/main.1f30f8b6.chunk.css"
+    "revision": "006b5b1a52c3034bd740",
+    "url": "/soften/static/css/main.1f707509.chunk.css"
   },
   {
-    "revision": "883eeb1a09ba3ad6d4b7",
-    "url": "/soften/static/js/2.89a57e02.chunk.js"
+    "revision": "17cea1914c0281a7d8ac",
+    "url": "/soften/static/js/2.0b6378dc.chunk.js"
   },
   {
-    "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/soften/static/js/2.89a57e02.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/soften/static/js/2.0b6378dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "358cf4a92ffb8231bea8",
-    "url": "/soften/static/js/main.220ee5c9.chunk.js"
+    "revision": "006b5b1a52c3034bd740",
+    "url": "/soften/static/js/main.62e09350.chunk.js"
   },
   {
     "revision": "4c54fa3913115e6121ab",
@@ -46,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4cea03a305b9bad90835479e739ec0c0",
     "url": "/soften/static/media/soften_ibm.4cea03a3.png"
+  },
+  {
+    "revision": "2d5810e85ff48afebe816c95a559df04",
+    "url": "/soften/static/media/yinyang.2d5810e8.png"
   }
 ]);
