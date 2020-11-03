@@ -1,12 +1,15 @@
 import React from 'react';
 import headshot from '../media/headshot.jpg';
 import candle from '../media/candle.jpg'
-
+import greySky from "../media/grey_sky.jpg"
 
 
 
 
 class Care extends React.Component {
+
+  
+
     render(){
         return(
             <div className ="profile">
@@ -20,9 +23,12 @@ class Care extends React.Component {
                         who is not a medical provider or family member.
                         <br/><br/>
                     </p> 
-                    <img src = {candle} className = 'picture' alt = ''></img>       
+                           
                 </div>
-
+                
+                <div className = 'empty-space'> 
+                  
+                </div>
                
 
                 <div className = 'info'>           
@@ -36,6 +42,23 @@ class Care extends React.Component {
                         <br/><br/>
                         
                 </div> 
+
+                <div className = 'empty-space'> 
+                  
+                </div>
+                
+                <div className ="info">
+                       
+                    <p>
+                        alongside my bodywork practice, i also work as a caregiver for the elderly, specializing in end-of-life care. 
+                        <br/><br/>
+                        as the body begins to shut down, palliative care can help to ease a person’s transition into the unknown.
+                        my experience in this field has shown me that it can be helpful for a dying person to have an ally in their walk toward death, 
+                        who is not a medical provider or family member.
+                        <br/><br/>
+                    </p> 
+                           
+                </div>
                   
             </div>
         );

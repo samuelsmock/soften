@@ -48,12 +48,13 @@
   top: 0;
   overflow: hidden;
   width: 100%;
-  background: rgb(266, 122, 252, 0.9);
+  background: rgba(196, 162, 214, 0.9);
   display:flex;
   flex-direction: column;
   justify-content: center;
   height:10vh;
-  
+  margin-bottom: 2vh;
+  padding-bottom: 2vh;
 }
 .menuBar ul{
   list-style-type: none;
@@ -81,7 +82,7 @@
   
  .menuBar a:hover { 
  
-  transition: color 1.25s;
+  transition: color 2.25s;
   color: rgb(0, 0, 0); 
     
     padding-top: 20px;
@@ -89,61 +90,93 @@
   }
 
   .menu_item_active a{
+    font-size: calc(10px + 1.95vw);
     color: rgb(0, 0, 0); 
     padding-top: 20px;
     style: bold;
     font-weight: bold;
     
    
-    border-bottom: 1px ridge black;
+    
     font-size: calc(10px + 2vw);
    
   }
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@0;1&family=Open+Sans&display=swap');
   body {
     
+  background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
   }
 
-.yang{
-  height: 20vh;
 
 
- }
+
+
+.text{
+  padding: 1vh 4vh 1vh 4vh; 
+}
+
+
+
+
+
 
 .info{
-  background: rgba(215, 211, 233, 0.85);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+
+  border-radius: 2vh 5vh;
+  transition: background-color 1s linear;
+  background:  rgba(215, 211, 233, 0.91);
   margin: 3vh 0px 0px 0px;
   padding: 1vh 3vh 1vh 3vh;
   top: 0;
-}
-.empty-space{
-  width: 100%;
-  height: 35vh;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-
-}
-.wrapped-text{
-  width: 70%;
-}
-
-.picture{
-  margin: 2vh 5vh 2vh 5vh;
-  width: 20%;
-  border-radius: 50%;
   
 }
-  .pages{
-    
-    display: flex;
-    flex-direction: column;
-    
-  }
+
+.info p{
+  margin: 2vh 5vh 2vh 5vh;
+}
+
+.info h1{
+  font-size: calc(5px + 1.75vw);
+  padding: 1vh 4vh 1vh 4vh; 
+}
+.picture{
+  margin: 2vh 5vh 2vh 5vh;
+  height:60vh;
+  float:left;
+  border-radius: 2vh 5vh;
+}
+
+.empty-space{
+  
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-space img{
+ margin: 1vh;
+ max-height: 30vh;
+ width: auto;
+ object-fit: contain;
+}
+
+.pages{
+  
+  display: flex;
+  flex-direction: column;
+  
+}
 
 
 
@@ -151,12 +184,7 @@
 
 
 html {
-  background: url('../media/sky.jpg');
-  background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  
 
    
     
@@ -168,7 +196,8 @@ html {
 }
 
 p{
-  font-family: 'Open Sans', sans-serif;
+  font-family: "IBM Plex Serif" , serif;
+ ;
   font-size: calc(10px + 1.25vw);
   line-height: 1.5
 }
@@ -194,15 +223,17 @@ p{
 .footer{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  background: rgba(19, 62, 70, 0.95);
+  justify-content: space-around;
+  background: rgba(84,174,176, 0.95);
   color: white;
   margin-top: 3vh;
-  padding: 30px 10px 30px 10px;
+  
+  
   
 }
 
 .footer p{
-  margin:20px;
+  
+  font-size: calc(5px + 1.25vw);
 }
 

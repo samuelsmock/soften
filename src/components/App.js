@@ -9,22 +9,31 @@ import {
  
 } from "react-router-dom";
 import Footer from "./footer.js";
-
-function App() {
-  return (
-    <Router basename= '/soften'>
-     <div className="App">
-     
-      <img src={logo} className="App-logo" alt="logo" />
-      <Menu/> 
-      <body>
-        <Pages/>
-        <Footer/>
-      </body>
+import horizon from "../media/blue_horizon.jpg";
+class App extends React.Component {
+  componentDidMount(){
       
-    </div>
-    </Router>
-  );
+    document.body.style.backgroundImage = `url(${horizon})`;
 }
+
+  render(){
+    return (
+      <Router basename= '/soften'>
+      <div className="App">
+      
+        <img src={logo} className="App-logo" alt="logo" />
+        
+        <Menu/> 
+        <body>
+          <Pages/>
+          <Footer/>
+        </body>
+        
+      </div>
+      </Router>
+    );
+  }
+}
+
 
 export default App;

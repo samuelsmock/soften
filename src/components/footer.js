@@ -17,11 +17,13 @@ class Footer extends React.Component {
 
                         
                     <p>
-                        Copyright © 2020 soften: bodywork and care
+                        Copyright © 2020 soften bodywork and care
                         
                     </p>
                     <p>
-                        contact: tajdotnewman@gmail.com
+                        email: softenbodywork@gmail.com
+                        <br></br>
+                        ph: 541-359-5301
                     </p>
 
                     

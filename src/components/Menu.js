@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import {CSSTransition} from 'react-transition-group';
-
-
+import sky from "../media/sky.png";
+import canon from "../media/canon.jpg";
+import greySky from "../media/grey_sky.jpg";
+import beach from "../media/beach.jpg";  
+import driftwood from "../media/driftwood.JPG";
 class Menu extends React.Component{
     constructor(props){
         super(props);
@@ -11,19 +14,23 @@ class Menu extends React.Component{
            items: [
                 {
                     path: '/me',
-                    text: "about me"
+                    text: "about me",
+                    bgImg: `url(${sky})`
                 },
                 {
                     path: '/bodywork',
-                    text: "bodywork"
+                    text: "bodywork",
+                    bgImg: `url(${driftwood})`
                 },
                 {
                     path: '/care',
-                    text: 'care'
+                    text: 'care',
+                    bgImg: `url(${greySky})`
                 },
                 {
-                    path: '/art',
-                    text: 'art'
+                    path: '/policies',
+                    text: 'policies',
+                    bgImg: `url(${beach})`
                 }
             ]
 
@@ -42,12 +49,16 @@ class Menu extends React.Component{
             if(elem.text === clickItem)
                 {index = newList.indexOf(elem);}
         }
+        let bg
+        document.body.style.backgroundImage = newList[index].bgImg;
 
         let elemToAdd = newList.splice(index, 1);
         newList.unshift(elemToAdd[0]);
-        console.log(elemToAdd[0]);
+        
         this.setState({items: newList});
 
+        
+        
 
     }
 
