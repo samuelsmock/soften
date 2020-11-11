@@ -6,7 +6,7 @@ import canon from "../media/canon.jpg";
 import greySky from "../media/grey_sky.jpg";
 import beach from "../media/beach.jpg";  
 import driftwood from "../media/driftwood.JPG";
-class Menu extends React.Component{
+class DropDown extends React.Component{
     constructor(props){
         super(props);
         
@@ -49,7 +49,8 @@ class Menu extends React.Component{
             if(elem.text === clickItem)
                 {index = newList.indexOf(elem);}
         }
-        let bg
+    
+        
         document.body.style.backgroundImage = newList[index].bgImg;
 
         let elemToAdd = newList.splice(index, 1);
@@ -67,7 +68,7 @@ class Menu extends React.Component{
         return (
         
 
-            <div className = "menuBar">
+            <div className = "dropDown">
                 <ul>
                     {this.state.items.map(item => (
                         <li
@@ -90,4 +91,4 @@ class Menu extends React.Component{
 }
 
 
-export default withRouter(Menu);
+export default withRouter(DropDown);

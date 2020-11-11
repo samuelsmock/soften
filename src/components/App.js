@@ -9,6 +9,7 @@ import {
  
 } from "react-router-dom";
 import Footer from "./footer.js";
+import DropDown from "./DropDown.js"
 import horizon from "../media/blue_horizon.jpg";
 class App extends React.Component {
   componentDidMount(){
@@ -20,9 +21,11 @@ class App extends React.Component {
     return (
       <Router basename= '/soften'>
       <div className="App">
-      
-        <img src={logo} className="App-logo" alt="logo" />
-        
+        <div className = "header">
+          <div></div>
+          <img src={logo} className="App-logo" alt="logo" />
+          <DropDown/>
+        </div> 
         <Menu/> 
         <body>
           <Pages/>

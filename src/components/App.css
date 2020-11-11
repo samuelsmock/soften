@@ -3,9 +3,6 @@
 
   
 }
-
-
-
 .App-logo {
   display: block;
   
@@ -15,34 +12,10 @@
   margin: 15vh auto 15vh auto;
 }
 
-
-
-.App-header {
- 
-  height: 45vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  font-size: calc(10px + 2vmin);
-  color: white;
-  position: fixed;
-  top: 0;
+.dropDown{
+  display: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .menuBar {
   position: sticky;
   top: 0;
@@ -74,17 +47,13 @@
   letter-spacing: 2px; 
   text-decoration: none; 
   margin-right: 10vw;
-  
-  
   width: 100%; 
-  
   }
   
  .menuBar a:hover { 
  
-  transition: color 2.25s;
-  color: rgb(0, 0, 0); 
-    
+    transition: color 2.25s;
+    color: rgb(0, 0, 0); 
     padding-top: 20px;
     transition:  1.25s;
   }
@@ -95,12 +64,52 @@
     padding-top: 20px;
     style: bold;
     font-weight: bold;
-    
-   
-    
     font-size: calc(10px + 2vw);
-   
   }
+  
+@media only screen and (max-width: 560px) {
+  .App-logo{
+    display: block;
+  
+    width: auto;
+    height: 90%;
+    pointer-events: none;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    margin: 5% auto 5% auto;
+  }
+  .header{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    background: rgba(196, 162, 214, 0.9);
+    display: flex;
+    justify-content: space-between;
+    height:25vh;
+  }
+  .dropDown{
+    display: block;
+  }
+  .menuBar{
+    display: none;
+    
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@0;1&family=Open+Sans&display=swap');
   body {
     
@@ -124,29 +133,48 @@
   padding: 1vh 4vh 1vh 4vh; 
 }
 
+.grid-look{
+  padding: 2vh 2vh 2vh 2vh ;
+  display: flex;
+
+}
+
+@media only screen and (max-width: 560px) {
+  .grid-look{
+    display: block;
+  }
+}
 
 
-
-
+.empty-space{
+  
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  flex-direction: column;
+}
 
 .info{
-
+  align-self: center;
+  flex-grow: 1;
   border-radius: 2vh 5vh;
-  transition: background-color 1s linear;
+  
   background:  rgba(215, 211, 233, 0.91);
-  margin: 3vh 0px 0px 0px;
+  
   padding: 1vh 3vh 1vh 3vh;
   top: 0;
   
 }
 
 .info p{
-  margin: 2vh 5vh 2vh 5vh;
+  margin: 2vh 2vh 2vh 2vh;
 }
 
 .info h1{
   font-size: calc(5px + 1.75vw);
-  padding: 1vh 4vh 1vh 4vh; 
+  margin: 2vh 5vh 2vh 5vh; 
 }
 .picture{
   margin: 2vh 5vh 2vh 5vh;
@@ -155,20 +183,15 @@
   border-radius: 2vh 5vh;
 }
 
-.empty-space{
-  
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .empty-space img{
  margin: 1vh;
  max-height: 30vh;
  width: auto;
  object-fit: contain;
+
+
 }
 
 .pages{
@@ -186,7 +209,8 @@
 html {
   
 
-   
+  margin: 0;
+  padding: 0;
     
   font-size: calc(10px + 2.5vw);
   font-family: "IBM Plex Serif" , serif;
