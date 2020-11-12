@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import logo from '../media/soften_ibm.png';
 import './App.css';
 import Menu from './Menu.js';
@@ -9,27 +10,47 @@ import {
  
 } from "react-router-dom";
 import Footer from "./footer.js";
-import DropDown from "./DropDown.js"
+import DropDown from "./DropDown/DropDown.js"
 import horizon from "../media/blue_horizon.jpg";
 class App extends React.Component {
   componentDidMount(){
-      
-    document.body.style.backgroundImage = `url(${horizon})`;
-}
+    document.body.style.backgroundImage = `url(${horizon})`
+    document.addEventListener('click', this.handleClickOutside, true);  //adds listener to close the dropdown menu when the screen is touched anywhere
+  }
+
+ 
+  componentWillUnmount() {
+      document.removeEventListener('click', this.handleClickOutside, true);
+  }
+
+  handleClickOutside = event => {
+    const domNode = ReactDOM.findDOMNode(this);
+
+    if (!domNode || !domNode.contains(event.target)) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
 
   render(){
     return (
       <Router basename= '/soften'>
-      <div className="App">
+      <div className = 'dropDown'><DropDown/></div>
+      <div className="App" >
+        
         <div className = "header">
-          <div></div>
           <img src={logo} className="App-logo" alt="logo" />
-          <DropDown/>
         </div> 
         <Menu/> 
         <body>
           <Pages/>
-          <Footer/>
+          <Footer/>  
         </body>
         
       </div>
