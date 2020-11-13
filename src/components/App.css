@@ -22,12 +22,12 @@
   top: 0;
   overflow: hidden;
   width: 100%;
-  background: rgba(196, 162, 214, 0.9);
+  background: rgba(197, 169, 212, 0.9);
   display:flex;
   flex-direction: column;
   justify-content: center;
   height:10vh;
-  margin-bottom: 2vh;
+  margin-bottom: 10vh;
   padding-bottom: 2vh;
 }
 .menuBar ul{
@@ -67,7 +67,11 @@
     font-weight: bold;
     font-size: calc(10px + 2vw);
   }
+  .header{
+   
+    background: radial-gradient( rgba(218, 207, 224, 0.6) 10% , rgba(1, 1, 1, 0) 50%,rgba(1, 1, 1, 0) );
   
+  }
 @media only screen and (max-width: 560px) {
   .App-logo{
     display: block;
@@ -83,7 +87,7 @@
     z-index:15;
     overflow: hidden;
     width: 100%;
-    background: linear-gradient(0deg,  rgba(255, 255, 255, 0), rgba(218, 207, 224, 0.6) 40%, rgba(255, 255, 255, 0));
+    background: linear-gradient(180deg,  rgba(255, 255, 255, 0), rgba(218, 207, 224, 0.3) 40%, rgba(255, 255, 255, 0), rgba(215, 211, 233, 0.91) 90%);
     display: flex;
     justify-content: space-between;
     height:35vh;
@@ -107,6 +111,7 @@
     display: none;
     
   }
+  
 }
 
 
@@ -141,27 +146,59 @@
 
 
 
-
 .text{
   padding: 1vh 4vh 1vh 4vh; 
+ 
 }
 
 .grid-look{
   padding: 2vh 2vh 2vh 2vh ;
   display: flex;
-
+  background:  rgba(215, 211, 233, 0.91);
+  align-items: center;
+  
+  padding: 1vh 3vh 1vh 3vh;
+  justify-content: space-around;
 }
 
+.grid-dark{
+  padding: 2vh 2vh 2vh 2vh ;
+  display: flex;
+  color: white;
+  background:rgba(123, 104, 134, 0.9);
+  align-items: center;
+  padding: 1vh 3vh 1vh 3vh;
+
+
+  justify-content: space-around;
+}
+.column-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media only screen and (max-width: 560px) {
   .grid-look{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center ; 
+    
+    
+  }
+  .text{
+    padding: 0;
+   
   }
 }
-
+  .grid-dark{
+    display: flex;
+    flex-direction: column;
+    
+  }
 
 .empty-space{
   
-  
+  width: 50vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,18 +206,27 @@
   flex-direction: column;
 }
 
+.doodle{
+  margin: 1vh;
+  max-height: 30vw;
+  width: 30vw;
+  object-fit: contain;
+ 
+ 
+ }
 .info{
   align-self: center;
-  flex-grow: 1;
-  border-radius: 2vh 5vh;
-  
-  background:  rgba(215, 211, 233, 0.91);
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   padding: 1vh 3vh 1vh 3vh;
   top: 0;
   
 }
-
+.gap{
+  height: 16vh;
+}
 .info p{
   margin: 2vh 2vh 2vh 2vh;
 }
@@ -191,7 +237,7 @@
 }
 .picture{
   margin: 2vh 5vh 2vh 5vh;
-  height:60vh;
+  height:55vh;
   float:left;
   border-radius: 2vh 5vh;
 }
@@ -200,22 +246,25 @@
   .info{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
   }
   .picture{
     width: 90%;
   }
+
+  .gap{
+    height: 10vh;
+  }
+  .doodle{
+    margin: 1vh;
+    max-height: 30vw;
+    width: 50vw;
+    object-fit: contain;
+  }
+   
 }
 
 
-.empty-space img{
- margin: 1vh;
- max-height: 30vh;
- width: auto;
- object-fit: contain;
-
-
-}
 
 .pages{
   

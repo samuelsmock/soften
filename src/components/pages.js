@@ -30,7 +30,7 @@ class Pages extends React.Component {
                     <Route path = "/me" component ={Me} />
                     <Route path = "/bodywork" component = {Bodywork} />
                     <Route path = "/care" component = {Care} />
-                    <Route path = "/art" component = {Policies} />
+                    <Route path = "/policies" component = {Policies} />
 
                    <div className = "empty-space"> </div>
                 </Switch>

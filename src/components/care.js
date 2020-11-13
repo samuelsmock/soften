@@ -1,8 +1,8 @@
 import React from 'react';
 import headshot from '../media/headshot.jpg';
-import candle from '../media/candle.jpg'
-import greySky from "../media/grey_sky.jpg"
-
+import candle from '../media/candle.jpg';
+import greySky from "../media/grey_sky.jpg";
+import touching from "../media/touching.png";
 
 
 
@@ -12,55 +12,64 @@ class Care extends React.Component {
 
     render(){
         return(
-            <div className ="profile">
-                <div className ="info">
-                       
-                    <p>
-                        alongside my bodywork practice, i also work as a caregiver for the elderly, specializing in end-of-life care. 
-                        <br/><br/>
-                        as the body begins to shut down, palliative care can help to ease a person’s transition into the unknown.
-                        my experience in this field has shown me that it can be helpful for a dying person to have an ally in their walk toward death, 
-                        who is not a medical provider or family member.
-                        <br/><br/>
-                    </p> 
-                           
-                </div>
-                
-                <div className = 'empty-space'> 
-                  
-                </div>
-               
-
-                <div className = 'info'>           
-                        <p>
-                            i work with the body through gentle massage, as well as in the emotional sphere, 
-                            by offering a listening ear and compassionate presence. this work is intimate and expectations vary from family to family, so please 
-                            reach out and we can explore whether my offerings fit your needs. 
-                            <br/><br/>
-                            rates vary
-                        </p>
-                        <br/><br/>
+            <div>
+                    <div className ="grid-look">
+                            <div className ="info">
+                                <p className = "text">                              
+                                    Alongside my bodywork practice, I also work as a caregiver for the elderly, specializing in end-of-life care. As the body begins to shut down, 
+                                    palliative care can help to ease a person’s transition into the unknown. My experience in the caregiving field has shown that it can be immensely
+                                    helpful for a person to have an ally in their walk toward death, who is not a medical provider or immediate family member.
+                              
+                                </p>     
+                                
+                            </div>    
+                            <img className = 'doodle' src = {touching} alt = ''/>     
+                    </div>
+                    <div className = "grid-look">
+                        <div className ="info">
+                                    <p className = "text">                              
+                                        In the past, my caregiving
+                                        has entailed any of the following: gentle massage, food preparation for client and/or client’s family, assistance toileting, conversation and
+                                        quiet companionship. The relationship between a client and their caregiver is intimate, and expectations vary from family to family, so please
+                                        reach out and we can explore whether my offerings fit your needs. 
+                                        <h2>Rates:</h2>
+                                    
+                                    $35/hour
+                                    <br></br>
+                                    $200/overnight
+                                  
+                                    </p>    
+                                   
+                                    
+                                    
                         
-                </div> 
+                                
+                        </div>  
+                      
+                    </div>
+                      
 
-                <div className = 'empty-space'> 
-                  
-                </div>
-                
-                <div className ="info">
+                    <div className = "gap">&nbsp;</div>
+                    <div className = "grid-dark">
+                        <div className ="info">
+                            <p className = "text">
+                            <h2>Testimonials </h2>
+                            
+
+                            “Taj is that rare creature that is informed by compassion in every move she makes, but she does not allow this compassion in any 
+                            way to cause her to deny the patient any freedom of movement or to make decisions of their own. She is a rare combination of someone 
+                            who provides caregiving, but does not allow that caregiving to in any way shortchange the patient in establishing his or her freedom of
+                            expression. She is way better than anything I could say.”
+                            <br></br>
+                            -David W., caregiving client 
+ 
+                            </p>
+                        
+                        </div> 
+                    </div>                        
+                        
                        
-                    <p>
-                        alongside my bodywork practice, i also work as a caregiver for the elderly, specializing in end-of-life care. 
-                        <br/><br/>
-                        as the body begins to shut down, palliative care can help to ease a person’s transition into the unknown.
-                        my experience in this field has shown me that it can be helpful for a dying person to have an ally in their walk toward death, 
-                        who is not a medical provider or family member.
-                        <br/><br/>
-                    </p> 
-                           
-                </div>
-                  
-            </div>
+                    </div>
         );
     };
 }

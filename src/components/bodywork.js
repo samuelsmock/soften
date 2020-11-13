@@ -1,8 +1,7 @@
 import React from 'react';
-import headshot from '../media/headshot.jpg';
-import canon from "../media/canon.jpg";
+import mountain from "../media/mountain.png"
 import cloud from "../media/cloud.png";
-import background1 from "../media/background1.png";
+
 
 
 
@@ -15,19 +14,19 @@ class Bodywork extends React.Component {
                 <div>
                     <div className ="grid-look">
                             <div className ="info">
-                                <h1>
-                                    "Softening can require deep work. 
+                                <p>
+                                    Softening can require deep work. 
                                     <br></br>
-                                    I would be honored to lend my hands in your process."  
-                                </h1>
+                                    I would be honored to lend my hands in your process.  
+                                </p>
                             </div> 
 
                             <div className ="empty-space">
                                 <img src = {cloud} alt ='' className = "doodle"/ >
                             </div>
                     </div>
-
-                    <div className = "grid-look">
+                    <div className = "gap">&nbsp;</div>
+                    <div className = "grid-dark">
                         <div className ="info">
                             <p className = "text">
                                     In an age when unprecedented amounts of information filter through our brains all day, every day, <strong>it is imperative that we make the time to connect with our bodies. </strong> 
@@ -42,11 +41,11 @@ class Bodywork extends React.Component {
                         
                         </div> 
                     </div>                        
-                        
+                    <div className = "gap">&nbsp;</div> 
                     <div className = "grid-look"> 
-                        <div className ="empty-space">
-                            <img src = {cloud} alt ='' className = "doodle" /> 
-                        </div>
+                        
+                    <img src = {mountain} alt ='' className = "doodle" /> 
+                        
                         <div className = "info">
                             <p className = "text">
                                     
@@ -69,8 +68,9 @@ class Bodywork extends React.Component {
                                 
                             </p>         
                         </div>
-                    </div>        
-                    <div className = "grid-look">  
+                    </div>  
+                    <div className = "gap">&nbsp;</div>       
+                    <div className = "grid-dark">  
                         <div className = "info">
                         
                             <p classname = "text">

@@ -90,7 +90,7 @@ class DropDown extends React.Component{
         return (
 
 
-            <div className = "dropDown">
+           
                 <div className="dropdown">
                     <button onClick={this.showMenu} className="dropbtn"><img src ={dropdown}height = "30px"></img></button>
                         <div id="myDropdown" className="dropdown-content">
@@ -112,7 +112,7 @@ class DropDown extends React.Component{
                         </div>
                 </div>
                
-            </div>
+            
           
         );
     }
