@@ -6,22 +6,22 @@ import cloudWhite from "../media/cloud_white.png";
 
 
 
-class Policies extends React.Component {
+class Info extends React.Component {
 
 
     render(){
         return(
             <div>
                 <div className ="grid-look">
-                        <div className ="text">
+                    <div className ="grid">
+                        <div className ="text" className = "grid-item">
                             
                             <p>
                                 <strong>Phone: </strong>
                                 <br></br>
                            
                                 541-359-5301
-                            </p>
-                            <p>
+                                <br></br>
                             
                                 <strong>Email: </strong>
                                 <br></br>
@@ -30,30 +30,29 @@ class Policies extends React.Component {
                             </p>
 
                         </div> 
-                        <div className ="info">
+                        <div className ="info" className = "grid-item">
                             <img src = {holding} alt ='' className = "doodle"/ >
                         </div>
-
-                        
-                </div>
-                <div className = "grid-look">
                     
-                       
-                        <p>
-                            
-                            <strong>Location:</strong> 
+                        <div className = "grid-item"> 
+                            <p>
+                                
+                                <strong>Location:</strong> 
+                                <br></br>
+                        
+                            116 Legion Way SE
                             <br></br>
-                      
-                        116 Legion Way SE
-                        <br></br>
-                        Olympia, WA
-                        <br></br>
-                        98506
-                        </p>
-                   
-                    <div className = "info">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.838999744086!2d-122.90279798438895!3d47.04338997915134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5491751c42610235%3A0xb5d9df17da8efb22!2s116%20Legion%20Way%20SE%2C%20Olympia%2C%20WA%2098501!5e0!3m2!1sen!2sus!4v1605288200789!5m2!1sen!2sus" width="300" height="250" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
-                    </div> 
+                            Olympia, WA
+                            <br></br>
+                            98506
+                            </p>
+                        </div> 
+
+                        <div className = "grid-item">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.838999744086!2d-122.90279798438895!3d47.04338997915134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5491751c42610235%3A0xb5d9df17da8efb22!2s116%20Legion%20Way%20SE%2C%20Olympia%2C%20WA%2098501!5e0!3m2!1sen!2sus!4v1605288200789!5m2!1sen!2sus" width="300" height="250" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div> 
               
                 <div className = "gap">&nbsp;</div>
                 <div className = "grid-dark">
@@ -70,6 +69,35 @@ class Policies extends React.Component {
                 </div>                        
                 <div className = "gap">&nbsp;</div> 
                 <div className = "grid-look"> 
+                        
+                    <img src = {mountain} alt ='' className = "doodle" /> 
+                        
+                        <div className = "info">
+                            <p className = "text">
+                                    
+                                    <h2>Rates:</h2>
+                                    
+                                    75 minutes - $100
+                                    <br></br>
+                                    90 minutes - $120 
+                                    <br></br>
+                                    <br></br>
+                                    
+                                    20% Off your first massage
+                                    <br></br> <br></br>
+                                    25% Off for all BIPOC, service industry workers, and mental health professionals
+                                    
+                                    
+                                    <br></br>
+                                    <br></br>
+                                    
+                                    <i className = "smallType">sliding scale or trade available upon request.</i>
+                                
+                            </p>         
+                        </div>
+                    </div>  
+                <div className = "gap">&nbsp;</div>     
+                <div className = "grid-dark"> 
                     
                 
                     
@@ -85,7 +113,7 @@ entirety of our session together, and I ask that you do the same
                     </div>
                 </div>  
                 <div className = "gap">&nbsp;</div>       
-                <div className = "grid-dark">  
+                <div className = "grid-look">  
                     <div className = "info">
                     
                         <p classname = "text">
@@ -105,4 +133,4 @@ However, if you begin to experience Covid-like symptoms at any point before your
     };
 }
 
-export default Policies;
+export default Info;

@@ -147,8 +147,18 @@
 
 
 .text{
-  padding: 1vh 4vh 1vh 4vh; 
+  padding: 0vh 4vh 0vh 4vh; 
  
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.grid-item{
+  width: 40vw;
+  padding: 2vw;
 }
 
 .grid-look{
@@ -179,19 +189,23 @@
 }
 @media only screen and (max-width: 560px) {
   .footer{
-    display: flex;
-    flex-direction: column;
     
     background: rgba(84,174,176, 0.95);
     color: white;
     margin-top: 3vh;
   }
+  .grid{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .grid-item{
+    width: auto;
+  }
   .grid-look{
     display: flex;
     flex-direction: column;
     align-items: center ; 
-    
-    
   }
   .text{
     padding: 0;
@@ -216,14 +230,15 @@
 }
 .doodle-no-background{
   margin: 1vh;
-  max-height: 30vw;
+  max-height: 35vh;
   width: 30vw;
   object-fit: contain;
+  background: radial-gradient( rgba(218, 207, 224, 0.8) , rgba(1, 1, 1, 0) 70%, rgba(1, 1, 1, 0) );
  }
 
 .doodle{
   margin: 1vh;
-  max-height: 30vw;
+  max-height: 35vh;
   width: 30vw;
   object-fit: contain;
  }
@@ -232,13 +247,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  flex-grow: 1;
   padding: 1vh 3vh 1vh 3vh;
   top: 0;
   
 }
 .gap{
-  height: 16vh;
+  height: 20vh;
 }
 .info p{
   margin: 2vh 2vh 2vh 2vh;
@@ -331,12 +346,10 @@ p{
 }
 
 .footer{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+
   background: rgba(84,174,176, 0.95);
   color: white;
-  margin-top: 3vh;
+ 
   
   
   

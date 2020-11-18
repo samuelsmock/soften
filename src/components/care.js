@@ -60,8 +60,22 @@ class Care extends React.Component {
                             way to cause her to deny the patient any freedom of movement or to make decisions of their own. She is a rare combination of someone 
                             who provides caregiving, but does not allow that caregiving to in any way shortchange the patient in establishing his or her freedom of
                             expression. She is way better than anything I could say.”
-                            <br></br>
-                            -David W., caregiving client 
+                            <br></br><br></br>
+                            &nbsp; &nbsp;  <strong>-David W, caregiving client </strong>
+
+                            <br></br><br></br>
+                            
+                            <hr></hr>
+                            <br></br><br></br>
+                                
+                            “Taj came into my moms life as a caretaker about a year before her death. Taj treated my mom like a human being, during a time when my mom 
+                            wasn't getting that from people. Taj was gentle and patient, it felt like she actually wanted to be there. She would chat with my mom while 
+                            she was doing the tasks my mom requested, they engaged in real conversation, which my mom needed as much as the household help. They seemed 
+                            to develop a real friendship. Taj was there for my mom in the last few days of her life. She read to her and held her hand and was supportive 
+                            and respectful. It was great seeing the two of them together, talking to each other as friends.”
+                            <br></br><br></br>
+                            &nbsp; &nbsp; <strong>-Holly A, daughter of former client</strong>
+
  
                             </p>
                         

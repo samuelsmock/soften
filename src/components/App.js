@@ -5,7 +5,7 @@ import './App.css';
 import Menu from './Menu.js';
 import Pages from './pages.js';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   
  
 } from "react-router-dom";
@@ -40,7 +40,7 @@ class App extends React.Component {
 
   render(){
     return (
-      <Router basename= '/soften'>
+      <Router basename= ''>
       <div className = 'dropDown'><DropDown/></div>
       <div className="App" >
         
@@ -50,6 +50,7 @@ class App extends React.Component {
         <Menu/> 
         <body>
           <Pages/>
+          <div className = "gap">&nbsp;</div> 
           <Footer/>  
         </body>
         

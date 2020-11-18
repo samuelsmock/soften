@@ -28,8 +28,8 @@ class Menu extends React.Component{
                     bgImg: `url(${greySky})`
                 },
                 {
-                    path: '/policies',
-                    text: 'policies',
+                    path: '/info',
+                    text: 'info',
                     bgImg: `url(${beach})`
                 }
             ]

@@ -10,7 +10,7 @@ import {
 import Me from './me';
 import Bodywork from './bodywork';
 import Care from './care';
-import Policies from './Policies';
+import Info from './Info';
 import grapes from "../media/grapes.png";
 import holding from "../media/holding.png";
 
@@ -33,7 +33,7 @@ class Pages extends React.Component {
                     <Route path = "/me" component ={Me} />
                     <Route path = "/bodywork" component = {Bodywork} />
                     <Route path = "/care" component = {Care} />
-                    <Route path = "/policies" component = {Policies} />
+                    <Route path = "/info" component = {Info} />
 
                    <div className = "empty-space"> </div>
                 </Switch>
