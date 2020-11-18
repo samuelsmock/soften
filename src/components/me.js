@@ -29,9 +29,12 @@ class Me extends React.Component {
                             
                     </div>  
                 </div>
-              
-                <div className="grid-look">
+                <div className = "gap"></div>
+               
+                
+                <div className="grid-dark">
                     <div className ="info">
+                    <img src = {grapes} alt = '' className= 'doodle'></img>
                         <p>I also lived in New Orleans for a beautiful four years, wherein I received my massage therapy training at Delgado Community College, and opened a home massage
                             practice. Since my return to the Pacific Northwest, I've also begun giving care to people approaching death. I am excited to build a massage practice in Olympia, 
                             while supporting elders in my community. When I'm not taking care of others, I take care of myself by cooking, watching light reflect on water, walking in the 
@@ -41,7 +44,7 @@ class Me extends React.Component {
                     
                 </div>
                
-                <img src = {grapes} alt = '' className= 'doodle'></img>
+                
                 
             </div>
             

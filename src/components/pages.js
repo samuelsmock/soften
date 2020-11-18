@@ -22,10 +22,13 @@ class Pages extends React.Component {
                 <Switch>
                     
                     <Route exact path = "/">
-                        <div className = "empty-space">
-                            <img className = "doodle" src = {holding}/> 
-                            <i className = "smallType"> "insert sentimental quote here" -  anonymous</i>
-                        </div>
+                       
+                            <div className ="grid-look">
+                                <img className = "doodle" src = {holding}/> 
+                                <i className = "smallType"> "Life doesn't make any sense without interdependence. We need eachother, and the sooner we learn that, 
+                                the better for us all" -  Eric Ericson</i>
+                            </div>
+                    
                     </Route>
                     <Route path = "/me" component ={Me} />
                     <Route path = "/bodywork" component = {Bodywork} />
