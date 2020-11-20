@@ -13,20 +13,34 @@ import Care from './care';
 import Info from './Info';
 import grapes from "../media/grapes.png";
 import holding from "../media/holding.png";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 class Pages extends React.Component {
     render (){
         return(
           
            <div className = "pages">
+            
                 <Switch>
                     
                     <Route exact path = "/">
                        
                             <div className ="grid-look">
                                 <img className = "doodle" src = {holding}/> 
-                                <i className = "smallType"> "Life doesn't make any sense without interdependence. We need eachother, and the sooner we learn that, 
-                                the better for us all" -  Eric Ericson</i>
+                        
+                            </div>
+                            <div className = "grid-look">
+                                <div className = "info">
+                               
+                                    <p className = "centered-text"> 
+                                    <i>"Life doesn't make any sense without interdependence.
+                                    <br></br>
+                                    We need each
+                                    other, and the sooner we learn that, the better for us all"
+                                     <br></br> 
+                                     - Eric Ericson</i>
+                                     </p>
+                                </div>
                             </div>
                     
                     </Route>
@@ -37,6 +51,7 @@ class Pages extends React.Component {
 
                    <div className = "empty-space"> </div>
                 </Switch>
+                     
             </div> 
                   
         )

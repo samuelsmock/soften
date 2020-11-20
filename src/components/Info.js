@@ -42,9 +42,7 @@ class Info extends React.Component {
                         
                             116 Legion Way SE
                             <br></br>
-                            Olympia, WA
-                            <br></br>
-                            98506
+                            Olympia, WA 98506
                             </p>
                         </div> 
 

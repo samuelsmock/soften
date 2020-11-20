@@ -137,10 +137,10 @@
     -o-background-size: cover;
     background-size: cover;
 
-    -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+    -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+  transition: backgroundImage 1s linear;
   }
 
 
@@ -149,6 +149,10 @@
 .text{
   padding: 0vh 4vh 0vh 4vh; 
  
+}
+
+.centered-text{
+  text-align: center;
 }
 
 .grid{
@@ -333,16 +337,19 @@ p{
 }
 
 @media only screen and (max-width: 560px) {
-  html {
-    
-    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  body {
 
-    
-  }
+    background-attachment: fixed;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+  
+      -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    }
 }
 
 .footer{
@@ -370,3 +377,4 @@ p{
     margin-top: 3vh;
   }
 }
+
