@@ -50,9 +50,10 @@ class Menu extends React.Component{
             if(elem.text === clickItem)
                 {index = newList.indexOf(elem);}
         }
-        let bg
+        
+        /*
         document.body.style.backgroundImage = newList[index].bgImg;
-
+        */
         let elemToAdd = newList.splice(index, 1);
         newList.unshift(elemToAdd[0]);
         
