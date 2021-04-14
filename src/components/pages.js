@@ -25,7 +25,7 @@ class Pages extends React.Component {
                        
                             <div className ="grid-look">
                                 <img className = "doodle" src = {holding}/> 
-                                <i className = "smallType"> "Life doesn't make any sense without interdependence. We need each other, and the sooner we learn that, 
+                                <i className = "smallType"> "Life doesn't make any sense without interdependence. We need eachother, and the sooner we learn that, 
                                 the better for us all" -  Eric Ericson</i>
                             </div>
                     

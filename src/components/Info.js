@@ -27,13 +27,6 @@ class Info extends React.Component {
                                 <br></br>
                                 
                                 softenbodywork@gmail.com
-                                
-                                <br></br>
-                                <strong>Location:</strong> 
-                                <br></br>
-                        
-                                 Wherever you are, I'll come to you!
-                                
                             </p>
 
                         </div> 
@@ -41,45 +34,52 @@ class Info extends React.Component {
                             <img src = {holding} alt ='' className = "doodle"/ >
                         </div>
                     
-                       
+                        <div className = "grid-item"> 
+                            <p>
+                                
+                                <strong>Location:</strong> 
+                                <br></br>
+                        
+                            116 Legion Way SE
+                            <br></br>
+                            Olympia, WA
+                            <br></br>
+                            98506
+                            </p>
+                        </div> 
 
-                        {/*<div className = "grid-item">
-                            
+                        <div className = "grid-item">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.838999744086!2d-122.90279798438895!3d47.04338997915134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5491751c42610235%3A0xb5d9df17da8efb22!2s116%20Legion%20Way%20SE%2C%20Olympia%2C%20WA%2098501!5e0!3m2!1sen!2sus!4v1605288200789!5m2!1sen!2sus" width="300" height="250" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                            
                         </div>
-                        */}
                     </div>
                 </div> 
               
                 <div className = "gap">&nbsp;</div>
                 <div className = "grid-dark">
-                    <img src = {cloudWhite} alt ='' className = "doodle" /> 
-                    <div className ="grid">
+                    <div className ="info">
                         <p className = "text">
                             <h2>Hours:</h2>
-                            By appointment only.
+                            I am currently seeing massage therapy clients on Sundays and Mondays, by appointment only. 
+                            Caregiving hours are determined as needed. 
 
                         </p>
                         
                     </div> 
-                    
+                    <img src = {cloudWhite} alt ='' className = "doodle" /> 
                 </div>                        
                 <div className = "gap">&nbsp;</div> 
                 <div className = "grid-look"> 
                         
-                    
+                    <img src = {mountain} alt ='' className = "doodle" /> 
                         
                         <div className = "info">
                             <p className = "text">
                                     
-                                    <h2>Rates for Mobile Massage:</h2>
-                                    60 minutes - $110
+                                    <h2>Rates:</h2>
+                                    
+                                    75 minutes - $100
                                     <br></br>
-                                    75 minutes - $130
-                                    <br></br>
-                                    90 minutes - $155
-                                   
+                                    90 minutes - $120 
                                     <br></br>
                                     <br></br>
                                     
@@ -96,7 +96,10 @@ class Info extends React.Component {
                             </p>         
                             <img src = {mountain} alt ='' className = "doodle" />
                         </div>
+<<<<<<< HEAD
                          
+=======
+>>>>>>> parent of 64118da (FlipMove menu and background fixed. Parrallax next)
                     </div>  
                 <div className = "gap">&nbsp;</div>     
                 <div className = "grid-dark"> 

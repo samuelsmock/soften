@@ -39,9 +39,6 @@ class Bodywork extends React.Component {
                             provide a massage experience that meets your needs. Pain and preferences differ vastly from person to person, therefore I make sure communication is 
                             open and clear so that you receive what you want. As someone who experiences chronic tension headaches, I have a personal interest in the intricate 
                             musculature of the head, neck and shoulders, and specialize in massaging those regions.
-                            <br></br> <br></br>
-                            I am currently offering mobile massage to folks in the greater Olympia area. This means that I bring my table with me, and give you a massage from the comfort of your home. 
-
                             </p>
                         
                         </div> 
@@ -54,13 +51,11 @@ class Bodywork extends React.Component {
                         <div className = "info">
                             <p className = "text">
                                     
-                                    <h2>Rates for Mobile Massage:</h2>
+                                    <h2>Rates:</h2>
                                     
-                                    60 minutes - $110
+                                    75 minutes - $100
                                     <br></br>
-                                    75 minutes - $130
-                                    <br></br>
-                                    90 minutes - $155
+                                    90 minutes - $120 
                                     <br></br>
                                     <br></br>
                                     
