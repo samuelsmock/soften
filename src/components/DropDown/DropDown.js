@@ -5,7 +5,7 @@ import sky from "../../media/sky.png";
 import canon from "../../media/canon.jpg";
 import greySky from "../../media/grey_sky.jpg";
 import beach from "../../media/beach.jpg";  
-import driftwood from "../../media/driftwood.JPG";
+import driftwood from "../../media/driftwood_horizontal.jpg";
 import dropdown from "../../media/dropdown.png";
 import "./DropDown.css"
 
@@ -31,8 +31,8 @@ class DropDown extends React.Component{
                     bgImg: `url(${greySky})`
                 },
                 {
-                    path: '/policies',
-                    text: 'policies',
+                    path: '/info',
+                    text: 'info',
                     bgImg: `url(${beach})`
                 }
             ]

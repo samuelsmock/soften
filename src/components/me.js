@@ -1,8 +1,6 @@
 import React from 'react';
 import headshot from '../media/headshot.jpg';
-import trees from '../media/nw_trail.jpg';
-import yin from "../media/yinyang.png";
-import sky from "../media/sky.png";
+
 import grapes from "../media/grapes.png";
 
 
@@ -30,7 +28,7 @@ class Me extends React.Component {
                             
                     </div>  
                 </div>
-                <img src = {grapes} alt = '' className= 'doodle-no-background'></img>
+                
                 <div className="grid-look">
                 
                     <div className ="info">

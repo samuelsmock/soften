@@ -17,9 +17,38 @@
   text-decoration: none;
 }
 
+.menuOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 4vw;
+  position: relative;
+  
+ 
+  list-style-type: none;
+  
+}
+
+.menuOptions a{
+  cursor: pointer;
+  
+  
+  line-height: 1;
+  text-align: left;
+  
+  -webkit-transition: all 1.2s;
+  -moz-transition: all 1.2s;
+   -o-transition: all 1.2s;
+      transition: all 1.2s; 
+ 
+  display: flex;
+  text-decoration: none;
+  
+}
+
 .menuBar {
   position: sticky;
-  top: 0;
+  top: 3vh;
   overflow: hidden;
   width: 100%;
   background: rgba(197, 169, 212, 0.9);
@@ -31,13 +60,7 @@
   padding-bottom: 2vh;
 }
 .menuBar ul{
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
   
-  width: 100%;
    
 }
 
@@ -52,17 +75,27 @@
   }
   
  .menuBar a:hover { 
- 
+    style: bold;
     transition: color 2.25s;
     color: rgb(0, 0, 0); 
-    padding-top: 20px;
+    padding-top: 2vh;
     transition:  1.25s;
+    font-size: calc(10px + 2.5vw);
   }
 
   .menu_item_active a{
     
     color: rgb(0, 0, 0); 
-    padding-top: 20px;
+    padding-top: 2vh;
+    style: bold;
+    font-weight: bold;
+    font-size: calc(10px + 3vw);
+  }
+
+  .menu_item a{
+
+    color: white; 
+    padding-top: 3vh;
     style: bold;
     font-weight: bold;
     font-size: calc(10px + 2vw);
@@ -87,7 +120,7 @@
     z-index:15;
     overflow: hidden;
     width: 100%;
-    background: linear-gradient(180deg,  rgba(255, 255, 255, 0), rgba(218, 207, 224, 0.3) 40%, rgba(255, 255, 255, 0), rgba(215, 211, 233, 0.91) 90%);
+    
     display: flex;
     justify-content: space-between;
     height:35vh;
@@ -155,32 +188,37 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center ; 
 }
 .grid-item{
+  display: flex;
   width: 40vw;
   padding: 2vw;
+  justify-content: center;
+  align-items: center ; 
 }
 
 .grid-look{
-  padding: 2vh 2vh 2vh 2vh ;
+
   display: flex;
   background:  rgba(215, 211, 233, 0.91);
+  
   align-items: center;
   
-  padding: 1vh 3vh 1vh 3vh;
   justify-content: space-around;
 }
 
 .grid-dark{
-  padding: 2vh 2vh 2vh 2vh ;
+
   display: flex;
   color: white;
   background:rgba(123, 104, 134, 0.9);
   align-items: center;
-  padding: 1vh 3vh 1vh 3vh;
-
-
+  
   justify-content: space-around;
+  
+
+
 }
 .column-center{
   display: flex;
@@ -300,7 +338,7 @@
   
   display: flex;
   flex-direction: column;
-  
+
 }
 
 

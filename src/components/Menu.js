@@ -1,11 +1,12 @@
 import React from 'react';
+import FlipMove from 'react-flip-move';
 import { Link, withRouter } from 'react-router-dom';
 import {CSSTransition} from 'react-transition-group';
 import sky from "../media/sky.png";
 import canon from "../media/canon.jpg";
 import greySky from "../media/grey_sky.jpg";
 import beach from "../media/beach.jpg";  
-import driftwood from "../media/driftwood.JPG";
+import driftwood from "../media/driftwood_horizontal.jpg";
 class Menu extends React.Component{
     constructor(props){
         super(props);
@@ -68,7 +69,8 @@ class Menu extends React.Component{
         
 
             <div className = "menuBar">
-                <ul>
+               
+                <FlipMove duration = "1200ms" type = "ul" className = "menuOptions">  
                     {this.state.items.map(item => (
                         <li
                             key={item.path}
@@ -82,7 +84,8 @@ class Menu extends React.Component{
                             <Link to={item.path}>{item.text}</Link>
                         </li>
                     ))}
-                </ul>
+                </FlipMove>    
+                
             </div>
           
         );

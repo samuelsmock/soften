@@ -34,7 +34,7 @@ class Care extends React.Component {
                                         reach out and we can explore whether my offerings fit your needs. 
                                         <h2>Rates:</h2>
                                     
-                                    $35/hour
+                                    $25/hour
                                     <br></br>
                                     $200/overnight
                                   
