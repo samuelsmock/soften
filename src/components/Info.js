@@ -96,10 +96,7 @@ class Info extends React.Component {
                             </p>         
                             <img src = {mountain} alt ='' className = "doodle" />
                         </div>
-<<<<<<< HEAD
                          
-=======
->>>>>>> parent of 64118da (FlipMove menu and background fixed. Parrallax next)
                     </div>  
                 <div className = "gap">&nbsp;</div>     
                 <div className = "grid-dark"> 
