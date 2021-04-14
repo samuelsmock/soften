@@ -70,7 +70,7 @@ class Info extends React.Component {
                         
                     
                         
-                        <div className = "grid">
+                        <div className = "info">
                             <p className = "text">
                                     
                                     <h2>Rates for Mobile Massage:</h2>
@@ -94,8 +94,9 @@ class Info extends React.Component {
                                     <i className = "smallType">sliding scale or trade available upon request.</i>
                                 
                             </p>         
+                            <img src = {mountain} alt ='' className = "doodle" />
                         </div>
-                        <img src = {mountain} alt ='' className = "doodle" /> 
+                         
                     </div>  
                 <div className = "gap">&nbsp;</div>     
                 <div className = "grid-dark"> 

@@ -21,9 +21,9 @@ class Care extends React.Component {
                                     helpful for a person to have an ally in their walk toward death, who is not a medical provider or immediate family member.
                               
                                 </p>     
-                                
+                                <img className = 'doodle' src = {touching} alt = ''/>  
                             </div>    
-                            <img className = 'doodle' src = {touching} alt = ''/>     
+                                 
                     </div>
                     <div className = "grid-look">
                         <div className ="info">
